@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SampleShop-2022練馬店</title>
+  <link rel="shortcut icon" href="img/img_logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/carouselStyle.css">
+</head>
+<body>
+  <header>
+    <div class="bgpic"></div>
+
+    <!--SVGで縁取りhtml-->
+    <div class="svgSample1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+        <defs>
+          <text dy="0.4em" id="outTextx">2022 練馬店</text>
+        </defs>
+        <use x="50%" y="50%" xlink:href="#outTextx"></use>
+        <use x="50%" y="50%" xlink:href="#outTextx"></use>
+      </svg>
+    </div>
+    <!-- （注）IE対策のため「text(use)」を2回繰り返しています -->
+    
+    <div class="bgpic"></div>
+
+    
+  </header>
+  
+<main>
+  <section class="carousel">
+    <div class="carouselContainer">
+      <ul id="carouselUl">
+        <li id="picture">
+            <img src="img/練馬ケース1.jpg" alt="">
+        </li>
+        <li><img src="img/練馬ケース2.jpg" alt=""></li>
+        <li><img src="img/練馬ケース3.jpg" alt=""></li>
+        <li><img src="img/練馬ケース4.jpg" alt=""></li>
+        <li><img src="img/練馬ケース5.jpg" alt=""></li>
+        <li><img src="img/練馬ケース6.jpg" alt=""></li>
+        <li><img src="img/練馬ケース7.jpg" alt=""></li>
+      </ul>
+      
+      <button id="prev">&laquo;</button>
+      <button id="next">&raquo;</button>
+    </div>
+  
+    <nav></nav>
+  </section>
+
+  <section>
+    <ul>
+      <div class="container-shop">
+        <legend>他店舗資料</legend>
+        <li>
+          <!-- " target="_blankで新しいタブで開く -->
+          <a href="https://working0101.github.io/toda/"
+          target="_blank">戸田店</a>
+        </li>
+        <li>
+          <a href="https://working0101.github.io//"
+          target="_blank">岩槻店</a>
+        </li>
+      </div>
+    </ul>
+  </section>
+  
+  <section class="hero">
+    <div class="container">
+      <img src="img" alt="" class="img-shop1">
+    </div> 
+
+    <div class="container">
+    <img src="img" alt="" class="img-shop2">
+    </div>
+    
+    <div class="container">
+    <img src="img/pic3.JPG" alt="岩槻店パブリック" class="img-shop3">
+    <p>岩槻店のパブリックスペース。
+      <br>お供えセット<br>幸水<br>オレンジ<br>グレープフルーツ<br>りんご<br>デラウェア</p>
+    </div>
+    <div class="container">
+      <img src="img/pic5.JPG" alt="岩槻店パブリック" class="img-shop3">
+      <p>岩槻店の店頭1番台。
+        <br>もも18玉3P <br>もも15玉2P </p>
+      </div>
+      
+    </section>
+  </main>
+  
+  <footer>(C)Hagiwara</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
+<!-- 入力フォームを作る -->
+<!-- 入力された物を反映させる -->
